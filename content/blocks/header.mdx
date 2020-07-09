@@ -1,4 +1,6 @@
 import { useSiteMetadata, useColorMode } from "@reflexjs/gatsby-theme-core"
+import ScreenReaderText from "./screenreadertext"
+
 
 export const HeaderBlock = ({ ...props }) => {
   const [showMenu, setShowMenu] = React.useState(false)
@@ -42,6 +44,7 @@ export const HeaderBlock = ({ ...props }) => {
             outline="none"
             onClick={() => setShowMenu(true)}
           >
+          <ScreenReaderText text="Main Menu" />
             <Icon name="menu" size="7" />
           </Button>
         </Flexbox>
