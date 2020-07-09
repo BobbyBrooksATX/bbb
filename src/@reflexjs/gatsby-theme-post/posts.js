@@ -31,7 +31,7 @@ export const PostTeaser = ({
       <Div>
         {title && (
           <Link href={slug}>
-            <H2 mt="0" mb="4" fontSize="2xl|2xl|3xl|4xl" hoverColor="primary">
+            <H2 mt="0" mb="4" fontSize="xl|2xl|2xl|3xl" hoverColor="primary">
               {title}
             </H2>
           </Link>

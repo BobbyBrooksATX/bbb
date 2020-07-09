@@ -91,6 +91,7 @@ export default {
     paddingLeft: 4,
     borderLeft: "4px solid",
     borderColor: "secondary",
+    borderWidth: 2,
     my: 8,
     fontStyle: "italic",
   },

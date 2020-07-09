@@ -24,6 +24,12 @@ module.exports = {
           `Post`,
         ]
       }
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-mixpanel',
+      options: {
+        apiToken: '1a26f7ded80d0464eb340c7e31b1c18e', // required
+      },
+    },
   ],
 }

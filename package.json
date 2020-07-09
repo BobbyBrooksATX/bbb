@@ -17,6 +17,7 @@
     "@reflexjs/gatsby-theme-core": "^0.3.0",
     "@reflexjs/gatsby-theme-post": "^0.3.1",
     "gatsby": "^2.22.11",
+    "gatsby-plugin-mixpanel": "^3.1.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.0.2",
