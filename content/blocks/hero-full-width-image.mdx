@@ -1,0 +1,28 @@
+export const HeroFullWidthImage = ({heading, lead, learn, buttonprimary, img}) => (
+    <Section pt="8|12|16|24">
+        <Container>
+            <Flexbox flexDirection="column" textAlign="center">
+            <H1 m="0" fontWeight="extrabold" lineHeight="tight">
+                {heading}
+            </H1>
+            <P fontSize="xl|2xl" mt="2">
+                {lead}
+            </P>
+            <Grid col="2" gap="4">
+                <ButtonLink href={buttonprimary} variant="primary">
+                Get started
+                </ButtonLink>
+                <ButtonLink href={learn} variant="link">
+                Learn more <Icon name="arrow-right" ml="4" />
+                </ButtonLink>
+            </Grid>
+            </Flexbox>
+            <Image
+            src="BB-hero-meg.png"
+            mt="12|14|16"
+            roundedTop="xl"
+            overflow="hidden"
+            />
+        </Container>
+    </Section>
+)

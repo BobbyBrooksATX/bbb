@@ -1,0 +1,82 @@
+---
+title: About
+excerpt: How did we get here?
+slug: about
+---
+
+<Section p="4">
+  <Container className="pageContainer">
+
+# About
+
+TL;DR My kids were growing up and I was missing it at my shitty corporate job. I enjoy working with people, so I taught myself how to make a lot of different things so I could work from home, helping people. How can I help you?
+
+<Hr />
+
+## The Beginning
+
+In 1998 whilst attending an annual stockholder's meeting for Price Enterprises (a real estate investment trust that has since been merged and forgotten) my dad pushed me up in front of the Director of Marketing and before I knew it I showing her printed designs of a website I made for them.
+
+The website was god awful. I wish I could say it was the last awful site I made but I've been making awful websites for years 😎 The trick is, each site I learn something new. For ever client site I've built, I build 15 that never went public. I've made 5 different websites this month aside from this one. Building with my hands is how I learn.
+
+One of the greatest lessons I've received from all of these websites is that, your website doesn't matter.
+
+At least, it doesn't matter in the way, or half as much as you think it does. It's this high importance that slows us down and keeps us from moving forward. I've started coaching as way to help people double down on their own visions, remove obstacles and get out there.
+
+Just like owning a car, you don't need to know how everything in the car works. You don't need to be able to rebuild the engine. Knowing what the high level components are and what they are used for will save you a lot of time and money. That is essentially what I aim to do with this business.
+
+Teach you what all the pieces are to an effective online marketing system and teach you how to change them on your own. You can hire out parts of the process but its important to know what you are hiring out and why so you can accurate assess the pricing associated with that part of your marketing plan as well as its return on investment.
+
+There's no secrets, no lock in, no surprises.
+
+If we discover technical work that needs to be done on your sites, or accounts and you don't want to do this work yourself. I am happy to help you hire that out, or I can work on a number of these items along side you.
+
+The key to a success ful coaching relationship is understanding what coaching is vs consulting or teaching. Througout our work toegether I will assume the role of an educator, to literally teach you how to log into something, build things, or link them together. I will play the role of a consultant where I give you advice on specific actions to take. You are free to make your own decisions.
+
+## Coach
+<Image src="scott-graham-5fNmWej4tAA-unsplash.jpg" alt="Two people working on Laptops, shot doesn't show their faces" />
+
+
+As your coach I will:
+
+- Provide objective assessments and observations that foster your self-awareness and awareness of others
+
+- Listen closely to fully understand your, goals, challenges, and circumstances
+
+- Act as a sounding board in exploring possibilities and implementing thoughtful planning and decision making
+
+- Champion opportunities and potential, encouraging stretch and challenge commensurate with your personal strengths and aspirations
+
+- Foster shifts in your thinking that will reveal fresh perspectives about your marketing efforts
+
+- Challenge your blind spots to illuminate new possibilities and support the creation of alternative scenarios
+
+- Maintain professional boundaries in the coaching relationship, including confidentiality, and adhere to the coaching profession’s <A href="https://coachfederation.org/code-of-ethics">code of ethics</A>
+
+## Thank Yous
+
+Not sure if I'll leave these on this page, I may relocate them to another page in the future.
+
+This site wouldn't have been possible without a ton of help from many many people, most of which have no idea I exist lol...
+
+June 18, 2020
+This site is built on Gatsby, running a Theme from <A href="https://twitter.com/arshadcn">@arshadcn</A>, <Block src="strikethrough" text="I ended up shadowing more than half of the components but doing so taught me a tremendous amount about GatsbyJS, GatsbyJS Themes, which was super fun." /> like 5 days after originally publishing this site, @arshadcn released <A href="https://reflexjs.org">reflexjs</A> so since no one reads this site anyway, I rebuilt 100% in reflexjs and having used Flex originally I have a pretty good idea of how things work and am loving this set up.
+
+I'm using Unsplash images from mulitple Photographers, the Homepage is from <A href="https://unsplash.com/@wocintechchat">Christina</A> from <A href="https://www.wocintechchat.com/">WOCinTechChat</A> and the image on this page is from <A href="https://unsplash.com/@sctgrhm">Scott Graham</A>
+
+### Tuts
+
+I used this <A href="https://github.com/gatsbyjs/gatsby/blob/master/examples/ecommerce-tutorial-with-stripe/src/components/checkout.js">Stripe tutorial</A>, although I used it before Stripe's new checkout came out and I had to fumble around in the dark to get it to work again. I may write up a walk through of how this works in the future. This checkout component was what really helped me, but the Stripe documentation uses "lineItems" and "price" to refer to recurring billing products.
+
+```Javascript
+const { error } = await stripe.redirectToCheckout({
+    lineItems: [{ price: process.env.GATSBY_BUTTON_SKU_ID, quantity: 1 }],
+    successUrl: `${window.location.origin}/page-2/`,
+    cancelUrl: `${window.location.origin}/`,
+  })
+
+```
+
+Now that this site is up, I can make changes often and I plan to add previously posted blog posts, new posts. New content, during Covid19 lockdown, I rebuild an entire StudioPress theme in Gatsby with a headless CMS. 👈 that is the nerdiest thing I've typed all day.
+</Container>
+</Section>
