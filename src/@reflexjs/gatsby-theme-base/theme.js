@@ -7,6 +7,7 @@ export default {
     primary: "rgb(177, 45, 148)",
     secondary: "rgb(0,243,220)",
     kbkey: "#fff",
+    border: "#c792ea",
     primaryContrast: "#fff",
       modes: {
         dark: {

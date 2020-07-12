@@ -1,0 +1,21 @@
+
+
+export const HorizontalCTA = ({heading, title, bg}) => (
+    <Section py="8|12|16|24" bg={bg}>
+    <Container>
+        <Flexbox flexDirection="column|row">
+        <Div textAlign="center|left" flex="1">
+            <H2 fontSize="4xl|5xl" m="0">
+            {title}
+            </H2>
+            <P fontSize="xl|2xl" mt="2">
+            Let's connect and discuss your project.
+            </P>
+        </Div>
+        <ButtonLink href="mailto:brooksrob@me.com" variant="primary lg" mt="6|0" ml="0|6">
+            <Icon name="mail" mr="2" /> Email Bobby
+        </ButtonLink>
+        </Flexbox>
+    </Container>
+    </Section>
+)

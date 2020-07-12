@@ -1,0 +1,10 @@
+export const ContentLink = ({ text, href, ...props }) => (
+  <A href={href} color="primary" style={{
+      borderBottom: `2px solid`,
+      lineHeight: `1.2`,
+  }}>
+  <Span color="text">
+  {text}
+  </Span>
+  </A>
+)
