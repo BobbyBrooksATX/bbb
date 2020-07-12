@@ -64,11 +64,11 @@ export default {
   },
   h2: {
     variant: "heading",
-    fontSize: ["3xl", "5xl", "5xl"],
+    fontSize: ["2xl", "4xl", "4xl"],
   },
   h3: {
     variant: "heading",
-    fontSize: ["2xl", "4xl", "4xl"],
+    fontSize: ["xl", "2xl", "3xl"],
   },
   h4: {
     variant: "heading",
