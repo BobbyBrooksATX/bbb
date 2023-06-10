@@ -16,7 +16,7 @@
     "@reflexjs/gatsby-theme-base": "^0.2.3",
     "@reflexjs/gatsby-theme-core": "^0.3.0",
     "@reflexjs/gatsby-theme-post": "^0.3.1",
-    "gatsby": "^2.22.11",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-tagmanager": "^2.3.11",
     "gatsby-plugin-mixpanel": "^3.1.6",
     "react": "^16.13.1",
